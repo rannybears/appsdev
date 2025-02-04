@@ -1,0 +1,71 @@
+Python Programming Language
+-created by Guido van Rossum and released in 1991,
+-Python's design philosophy emphasizes code readability with iuts notable use of significant whitespace ( decimal to binary )
+-versatile language used to various fields from web development to data science, embedded sysmtems and artificial intelligence.
+-simplicity, readability, and easy to learn
+
+Basic Structure of a Python Program
+-Import Statements: To include external Python modules.
+-Functions and Classes: Building blocks of Python code.
+-Statements and Expressions: Executable instructions.
+-Comments: For adding descriptions and explanations within the code.
+
+Import Statements in Python
+-Import statements in python allow for using modules and packages, which are collections of functions and classes.
+Example:
+import math
+from datetime import datetime
+# Other imports...
+
+Syntax Rules in Python
+-Python syntax is designed for readability:
+
+	-Indentation: Python uses whitespace indentation to define code blocks.
+	-Variables and Assignment: Python doesn't require explicit variable declaration.
+	-Dynamic Typing: Variables types are determined at runtime
+
+	EXAMPLE :
+
+	x = 10 # Variable Assignment
+	if x > 5:
+		print("x is greater than 5")
+
+Errors in Python
+
+Pythons error can be categorized into:
+
+-Syntax Error: Mistakes in the structure of a statement or expression.
+-Runtime Errors: Errors detected during execution (often exceptions).
+-Logical Errors: Errors in the logic of the program.
+
+Comments in Python
+
+- Single-Line Comments: Start with #
+- Multi-Line Comments: Starts with (""")
+
+Variables in Python
+
+-Start with a Letter or Underscore: Variable names should begin with a letter (A-Z/a-z) or an underscore (_)
+-Include Alphanumeric Characters and Underscores: They can include letters, numbers, and underscores.
+-Avoid Python Keywords: Avoid using Python keywords (like if, else, while, etc.) as variable names.
+-Case Sensitivity: Python variable names are case-sensitive.
+
+Example:
+
+username = "admin"
+item_count = 50
+_price = 19.99
+
+Data Types in Python
+
+-Basic Types: int, float, str, bool.
+-Collections: list, tuples, dict, set.
+
+Constants in Python
+
+-Constants are not enforced by Python syntax, but by convention, they are written in uppercase:
+
+Example:
+
+PI = 3.14159
+MAX_SIZE = 100
